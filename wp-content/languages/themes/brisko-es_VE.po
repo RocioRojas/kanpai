@@ -1,0 +1,178 @@
+# Translation of Themes - Brisko in Spanish (Venezuela)
+# This file is distributed under the same license as the Themes - Brisko package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-13 02:43:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es_VE\n"
+"Project-Id-Version: Themes - Brisko\n"
+
+#. Theme Name of the theme
+msgid "Brisko"
+msgstr "Brisko"
+
+#. Description of the theme
+msgid "Brisko is a beautifully simple responsive and lightweight WordPress theme that is fast and optimized for WordPress page builders, you can use it as a foundation to build versatile layouts using modern page builders like Elementor, Gutenberg, Beaver Builder, Brizy, SiteOrigin etc. this theme is suitable for personal blogs, business, agency, restaurant, simple blog, life coach, portfolio, charity, and more. Brisko can be extended with plugins or child themes using any of the many included actions."
+msgstr "Brisko es un bonito y ligero tema adaptable para WordPress, rápido y optimizado para los maquetadores de páginas para WordPress, que puedes usar como base para crear diseños versátiles usando los modernos maquetadores de páginas como Elementor, Gutenberg, Beaver Builder, Brizy, SiteOrigin, etc. Este tema es apropiado para blogs personales, negocios, agencias, restaurantes, blogs sencillos, entrenadores personales, porfolios, organizaciones benéficas y más. Brisko puede ser ampliado con plugins o temas hijo usando cualquiera de las muchas acciones incluidas."
+
+#: src/Customize/Customizer.php:39
+msgid "Theme Options"
+msgstr "Opciones del tema"
+
+#: src/Setup/Activate.php:65
+msgid "Primary"
+msgstr "Principal"
+
+#: src/Customize/Settings/Blog.php:65 src/Setup/Activate.php:140
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: src/Setup/Activate.php:142
+msgid "Add widgets here."
+msgstr "Añade aquí los widgets."
+
+#: header-canvas.php:24 header.php:24
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: src/View/Page404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se ha podido encontrar esa página."
+
+#: src/View/Page404.php:30
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se ha encontrado nada en esta ubicación. ¿Quizá podrías intentar una búsqueda o usar uno de los enlaces que se muestran a continuación?"
+
+#: src/View/Page404.php:36
+msgid "Most Used Categories"
+msgstr "Categorías más usadas"
+
+#. translators: %1$s: smiley
+#: src/View/Page404.php:54
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Intenta buscar en los archivos mensuales. %1$s"
+
+#: src/View/Single.php:53
+msgid "Previous:"
+msgstr "Anterior:"
+
+#: src/View/Single.php:54
+msgid "Next:"
+msgstr "Siguiente:"
+
+#: template-parts/nav.php:32
+msgid "Menu"
+msgstr "Menú"
+
+#: template-parts/content-page.php:22 template-parts/content-full-width.php:16
+#: template-parts/content.php:65
+msgid "Pages:"
+msgstr "Páginas:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:35
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:38 template-parts/content-single.php:35
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Seguir leyendo<span class=\"screen-reader-text\"> «%s»</span>"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: template-parts/content-none.php:32
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento, pero no hay nada que coincida con tus términos de búsqueda. Por favor, inténtalo de nuevo con algunas palabras clave diferentes."
+
+#: template-parts/content-none.php:37
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no hemos podido encontrar lo que estás buscando. Quizá pueda ayudarte una búsqueda."
+
+#. translators: %s: search query.
+#: src/View/Search.php:22
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda de: %s"
+
+#. translators: %s: post date.
+#: src/inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicada el %s"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: src/inc/template-tags.php:38
+msgid " Edit <span class=\" screen-reader-text\"> %s </span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: %s: post author.
+#: src/inc/template-tags.php:63
+msgctxt "post author"
+msgid "by %s"
+msgstr "por %s"
+
+#. translators: used between list items, there is a space after the comma
+#: src/inc/template-tags.php:80
+msgid "  "
+msgstr "  "
+
+#. translators: 1: list of categories.
+#: src/inc/template-tags.php:83
+msgid "Posted in %1$s"
+msgstr "Publicada en %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: src/inc/template-tags.php:87
+msgctxt "list item separator"
+msgid " "
+msgstr " "
+
+#. translators: 1: list of tags.
+#: src/inc/template-tags.php:90
+msgid "Tags: %1$s "
+msgstr "Etiquetas: %1$s"
+
+#. translators: %s: post title
+#: src/inc/template-tags.php:100
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
+
+#. translators: 1: title.
+#: comments.php:33
+msgid "One Comment on &ldquo;%1$s&rdquo;"
+msgstr "Un comentario en «%1$s»"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:39
+msgctxt "comments title"
+msgid "%1$s Comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s comentario en «%2$s»"
+msgstr[1] "%1$s comentarios en «%2$s»"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#. Template Name of the theme
+msgid "Brisko Full Width"
+msgstr "Ancho completo de Brisko"
+
+#. Template Name of the theme
+msgid "Brisko Canvas"
+msgstr "Lienzo de Brisko"
+
+#. Author of the theme
+msgid "devuri"
+msgstr "devuri"
